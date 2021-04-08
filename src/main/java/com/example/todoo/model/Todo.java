@@ -17,6 +17,9 @@ public class Todo {
     private String description;
     private Priority priority;
 
+    public Todo() {
+    }
+
     public Todo(Long id, String description, Priority priority) {
         this.id = id;
         this.description = description;
